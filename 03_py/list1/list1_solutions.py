@@ -66,6 +66,7 @@ def middle_way(a, b):
 def make_ends(nums):
   ends = [nums[0], nums[len(nums)-1]] 
   return ends
+
 # has23
 def has23(nums):
   return (nums[0] == 2 or nums[0] == 3) or (nums[1] == 2 or nums[1] == 3)
