@@ -9,4 +9,88 @@ def front_times(str, n):
   else:
     return n * str
 
+ # string bits
+def string_bits(str):
+  final = ""
+  increment = 0
+  while increment < len(str): 
+    final += str[increment] 
+    increment += 2
+  return final
+    
+ # string splosion 
+def string_splosion(str):
+  result = "" 
+  counter = 1
+  while counter <= len(str): 
+    result += str[0:counter] 
+    counter += 1
+  return result 
+
+# last2
+def last2(str):
+  last2 = str[-2:] 
+  counter = 0
+  result = 0 
+  while counter < len(str)-2: 
+    if str[counter: counter + 2] == last2: 
+      result += 1
+    counter += 1
+  return result
+
+# array count9 
+def array_count9(nums):
+  counter = 0
+  for x in nums: 
+    if x == 9: 
+      counter += 1
+  return counter
+
+# arrau front9
+def array_front9(nums):
+  index = 0
+  counter = 0
+  if len(nums) >= 4: 
+    while index <= 3: 
+      if nums[index] == 9:
+        counter += 1
+        index += 1
+      else: 
+        index += 1
+  else: 
+    while index <= len(nums)-1: 
+      if nums[index] == 9:
+        counter += 1
+        index += 1
+      else: 
+        index += 1
+  # after both cases run 
+  if counter != 0:
+      return True
+  else: 
+      return False
+
+# array123
+def array123(nums):
+  index = 0
+  while index <= len(nums)-3: 
+    if nums[index: index + 3] == [1,2,3]: 
+      return True
+    else: 
+      index += 1
+  return False
+
+# string match
+def string_match(a, b):
+  index = 0
+  counter = 0
+  while index <= len(a)-2: 
+    if a[index:index+2] == b[index:index+2]: 
+      counter += 1
+      index += 1
+    else: 
+      index += 1
+  return counter
+
+
 
