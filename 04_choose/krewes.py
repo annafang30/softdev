@@ -1,4 +1,10 @@
 '''
+Jing Feng, Anna Fang, Prattay Dey
+SoftDev
+04_choose
+2022-09-22
+time spent: 
+
 DISCO:
 - You can have multiple key-value pairs for an index
 - You can access a specific value by entering its key after the index
