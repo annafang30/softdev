@@ -27,20 +27,13 @@ krewes = {
            8:["ALEKSANDRA",  "NAKIB",  "AMEER",  "HENRY",  "DONALD",  "YAT LONG",  "SEBASTIAN",  "DAVID",  "YUKI",  "SHAFIUL",  "DANIEL",  "SELENA",  "JOSEPH",  "SHINJI",  "RYAN",  "APRIL",  "ERICA",  "JIAN HONG",  "VERIT",  "JOSHUA",  "WILSON",  "AAHAN",  "GORDON",  "JUSTIN",  "MAYA",  "FAIYAZ",  "SHREYA",  "ERIC",  "JEFFERY",  "BRIAN",  "KEVIN",  "SAMSON",  "BRIAN",  "HARRY",  "Wanying", "Kevin"]
          }
 
-def generateRandomDev():
-    selected = rng.randint(1,3)
-    randPD = 0
-    if selected == 1:
-        randPD = 2
-    elif selected == 2:
-        randPD = 7
-    else:
-        randPD = 8 
-    selectedClass = randPD
-    fullClass = krewes[selectedClass]
-    selectedDevo = rng.randint(0, len(fullClass)-1)
-    #print(selectedClass) => used to test
-    return fullClass[selectedDevo] 
 
-print(generateRandomDev())
- 
+def generateRandomDev():
+    keys = list(krewes.keys())
+    randIndex = rng.randint(0, len(krewes) - 1)
+    randKey = keys[randIndex]
+    fullPeriod = krewes[randKey]
+    selectedDevo = rng.randint(0, len(fullPeriod)-1)
+    return fullPeriod[selectedDevo]
+
+print( generateRandomDev() )
