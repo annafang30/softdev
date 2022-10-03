@@ -1,5 +1,5 @@
 '''
-Anna Fang and Aden Garbutt
+Team AA: Anna Fang and Aden Garbutt
 SoftDev
 05_bitstream
 2022-09-30
