@@ -1,4 +1,9 @@
 '''
+Anna Fang and Aden Garbutt
+SoftDev
+05_bitstream
+2022-09-30
+time spent: 
 DISCO:
 - how to check keys in a dictionary
 - how to read in and split a string based on a given element
