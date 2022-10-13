@@ -6,6 +6,11 @@
 <br>
 
 # DISCO:
+* Prediction: We predict that the textfile will display on the webpage as well as the html file.
+* The text has to be between \<html\> and \</html\> in order to appear on the webpage.
+* \<!DOCTYPE html\> delares that the code will be read as html.
+* The link in the foo plain text file downloads the entire text file when run on the browser.
+* \<!--placeholder--\> is how to make a comment in html.
 - Everytime the user saves new changes, the debugger will activate and refresh the program.
 - @app.route("/") routes the return of hello_world() onto a web page.
 - "/" stands for the root of the directory.
