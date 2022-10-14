@@ -1,6 +1,8 @@
-# Clyde 'Thluffy' Sinclair
+# ADJ In The House! :: Joseph Wu, Anna Fang, Diana Akhmedova
 # SoftDev
-# Oct 2022
+# K10 -- Just Plug It In
+# 2022-10-13
+# time spent: 0.5 hours
 
 from flask import Flask, render_template #Q0: What will happen if you remove render_template from this line? (log your prediction before you pull the trigger...)
 app = Flask(__name__)
