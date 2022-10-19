@@ -17,6 +17,7 @@ DISCO:
 		-If overflow is set to hidden, the text is cutoff.
 		-If overflow is hidden, the resize attribute can be used to change the size of the textbox.
 		-However, there is a difference between a text overflow, and a textbox being resized to accomodate the screen size. So that research was for naught.
+<br> 
 QCC:
 - Is there a better method than all this trial and error?
 
