@@ -5,7 +5,8 @@
 ### time spent: 1 hr
 
 Lorem Ipsum generator used: there's always money in the banana stand
-<br> 
+<br>
+<br>
 DISCO:
 - Basic CSS review : `text-align` to center/align text, `color` to color text, `background-color` to color background
 - Useful CSS properties:
