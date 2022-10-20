@@ -1,8 +1,8 @@
 # Gastric Bypass Train - Sam Cowan, Anna Fang, Sadi Nirloy
-## K13: Stuylin' & Wylin' & Profilin'
+## K14: Serving Looks
 ### SoftDev
 ### 19-10-2022
-### time spent: 1 hr
+### time spent: 
 
 DISCO:
 - Basic CSS review : `text-align` to center/align text, `color` to color text, `background-color` to color background
@@ -20,7 +20,3 @@ DISCO:
 <br>
 QCC:<br>
 - Is there a better method than all this trial and error?
-
-
-
- 
