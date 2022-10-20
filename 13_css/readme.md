@@ -4,6 +4,8 @@
 ### 19-10-2022
 ### time spent: 1 hr
 
+Lorem Ipsum generator used: there's always money in the banana stand
+<br> 
 DISCO:
 - Basic CSS review : `text-align` to center/align text, `color` to color text, `background-color` to color background
 - Useful CSS properties:
@@ -18,5 +20,5 @@ DISCO:
 		- If overflow is hidden, the resize attribute can be used to change the size of the textbox.
 		- However, there is a difference between a text overflow, and a textbox being resized to accomodate the screen size. So that research was for naught.
 <br>
-QCC: <br> 
+QCC: <br>
 - Is there a better method than all this trial and error?

@@ -4,6 +4,8 @@
 ### 19-10-2022
 ### time spent: 0.7 hr
 
+Lorem Ipsum generator used: there's always money in the banana stand
+<br> 
 DISCO:
 - `display: flex` formats parts into rows and columns and changes dimensions to work with resize
 - Using HTML/CSS classes is extremely useful for organization
