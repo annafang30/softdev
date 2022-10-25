@@ -10,8 +10,11 @@ Essentially: sqlite3 let's us condense lots of data into one database, allowing 
 
 ### Prerequisites:
 
-- Something you should know beforehand...
-- Something you will need installed beforehand...
+- check if your machine has sqlite3 pre-installed. If not, install it through the SQLite download page.
+
+### Using the sqlite3 shell
+Once you have checked that you have sqlite installed on your machine, you can start the program up by typing "sqlite3" into your terminal command line followed by a database name. This will create a new database (or, if the entered name already exists, you will be editing an already existing database).
+If you wish to terminate your commands, use Control D. 
 
 # DISCO
 - To get into the shell, we use the command "sqlite3" in the terminal
@@ -34,8 +37,7 @@ Essentially: sqlite3 let's us condense lots of data into one database, allowing 
 
 
 ### Resources
-* thing1
-* thing2
+* [sqlite](https://sqlite.org/cli.html)
 
 ---
 
@@ -44,4 +46,4 @@ Accurate as of (last update): 2022-10-24
 #### Contributors:  
 Sam Cowan, PD7  
 Anna Fang, PD7  
-Sadi Nirloy, Pd 7  
+Sadi Nirloy, Pd7  
