@@ -4,7 +4,7 @@
 sqlite3 allows us to store information in a collection of tables and allows us to compare, pull, and get data if we know information that corresponds with the data grouping.
   * For example, if we know information contained in Column1 of a table, we can get the corresponding (relational!) information in Column2.
 
-Essentially: sqlite3 let's us store lots of data into one database, allowing us to better access and compare relational data!
+Essentially: sqlite3 let's us condense lots of data into one database, allowing us to better access and compare relational data!
 
 ### Estimated Time Cost: Depends on the project in question.
 
