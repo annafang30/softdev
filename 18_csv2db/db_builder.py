@@ -1,5 +1,9 @@
 """
-Sam Cowan, Anna Fang, Sadi Nirloy of Soup Shark
+# Gastric Bypass Train - Sam Cowan, Anna Fang, Sadi Nirloy
+## K18: (Python+SQLite)3: A Mare Widge Made in Hebben
+### SoftDev
+### 26/27-10-2022
+### time spent: 1 hr
 """
 
 import sqlite3   #enable control of an sqlite database
