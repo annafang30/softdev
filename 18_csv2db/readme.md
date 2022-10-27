@@ -1,3 +1,9 @@
+# Gastric Bypass Train - Sam Cowan, Anna Fang, Sadi Nirloy
+## K18: (Python+SQLite)3: A Mare Widge Made in Hebben
+### SoftDev
+### 26/27-10-2022
+### time spent: 1 hr
+
 #### Relational database
 * DB that stores information as a collection of tables.
 * FIELD: "Column" data in a RDB
