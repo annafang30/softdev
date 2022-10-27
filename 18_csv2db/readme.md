@@ -11,9 +11,10 @@
 - column name is determined automatically as the values of the first row
 - Printing reading only returns an address
 -  DictReader not subscriptable
+
 ####QCC:
 - how do we handle repetition? How can we loop through DictReader multiple times without running into errors?
-<br>
+
 #### Relational database
 * DB that stores information as a collection of tables.
 * FIELD: "Column" data in a RDB
