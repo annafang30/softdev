@@ -6,19 +6,12 @@
 
 ####DISCO:
 - While `DB_FILE="discobandit.db` used to work in older versions of sqlite, the current (most recent version) uses `DB_FILE="discobandit"`
-<br>
 - `CREATE TABLE IF NOT EXISTS` allows us to create a table if it doen't already exist
-<br>
 - db allows you to use the cursor to trigger db events
-<br>
 - column name is determined automatically as the values of the first row
-<br>
 - Printing reading only returns an address
-<br>
 -  DictReader not subscriptable
-<br>
 ####QCC:
-<br>
 - how do we handle repetition? How can we loop through DictReader multiple times without running into errors?
 <br>
 #### Relational database
