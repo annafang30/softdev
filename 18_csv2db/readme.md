@@ -1,21 +1,29 @@
 # Gastric Bypass Train - Sam Cowan, Anna Fang, Sadi Nirloy
 ## K18: (Python+SQLite)3: A Mare Widge Made in Hebben
 ### SoftDev
-### 25-10-2022
-### time spent: TBD
+### 26/27-10-2022
+### time spent: 1 hr
 <br>
 DISCO:
+<br>
 - While `DB_FILE="discobandit.db` used to work in older versions of sqlite, the current (most recent version) uses `DB_FILE="discobandit"`
+<br>
 - `CREATE TABLE IF NOT EXISTS` allows us to create a table if it doen't already exist
+<br>
 - db allows you to use the cursor to trigger db events
+<br>
 - column name is determined automatically as the values of the first row
+<br>
 - Printing reading only returns an address
+<br>
 -  DictReader not subscriptable
 
 <br>
 QCC:
+<br>
 - how do we handle repetition? How can we loop through DictReader multiple times without running into errors?
-<br> 
+<br>
+<br>
 #### Relational database
 * DB that stores information as a collection of tables.
 * FIELD: "Column" data in a RDB
