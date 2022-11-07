@@ -1,3 +1,9 @@
+# Gastric Bypass Train - Sam Cowan, Anna Fang, Sadi Nirloy
+## K18: (Python+SQLite)3: A Mare Widge Made in Hebben
+### SoftDev
+### 6-11-2022
+### time spent: 2 hr
+
 # K19 Notes
 ## DISCOS
 ### Setting up a session from an HTML form
