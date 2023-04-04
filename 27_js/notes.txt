@@ -1,0 +1,21 @@
+Team AA :: Anna Fang, Aleksandra Shifrina
+SoftDev pd7 
+K27 -- Basic functions in JavaScript
+2023-04-04f
+
+DISCO
+-----------------------------------------------------------------
+*  You don't necessarily have to use the lambda structure! 
+*  Indentation matters! 
+*  Scheme allows loops and func. work to be reduced 
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* (Question we had during class) How do we run scheme documents directly in our terminals? 
+*  What is the benefit of using scheme over other programming languages? 
+*  
+*  
+=================================================================
+
+
