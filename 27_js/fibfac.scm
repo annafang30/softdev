@@ -14,7 +14,7 @@
    (*n(fact (- n 1))))
 
 
-(fact 1) ;"...should be  1"
+;(fact 1) ;"...should be  1"
 ;fact(2) ;"...should be  2"
 ;fact(3) ;"...should be  6"
 ;fact(4) ;"...should be  24"
