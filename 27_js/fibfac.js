@@ -19,8 +19,8 @@ function fact(n){
     }
 }
 
-console.log(fact(9)); 
-console.log(fact(12)); 
+// console.log(fact(9)); 
+// console.log(fact(12)); 
 
 // Fn = f(n-1) + f(n-2)
 function fib(n){
@@ -32,7 +32,7 @@ function fib(n){
     }
 }
 
-console.log(fib(9));
-console.log(fib(12));  
+// console.log(fib(9));
+// console.log(fib(12));  
 
 //Do whatever you think is needed. Think: S I M P L E.   Think: S M A R T.
