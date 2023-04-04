@@ -6,16 +6,15 @@ K27 -- Basic functions in JavaScript
 DISCO
 -----------------------------------------------------------------
 *  You don't necessarily have to use the lambda structure! 
-*  Indentation matters! 
 *  Scheme allows loops and func. work to be reduced 
+* JS uses "node" to compile and "console.log" for func/print calls
+* Ctrt+Shift/Option+J will allow you to run JS in the browser! 
 =================================================================
 
 QCC
 -----------------------------------------------------------------
-* (Question we had during class) How do we run scheme documents directly in our terminals? 
-*  What is the benefit of using scheme over other programming languages? 
-*  
-*  
+* (Question we had during class) How do we run scheme documents directly in our terminals?
+*  What is the benefit of using scheme over other programming languages? Over JS? 
 =================================================================
 
 
