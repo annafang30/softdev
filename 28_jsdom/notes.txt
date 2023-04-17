@@ -1,0 +1,9 @@
+Team Double A V2 :: Sasha Shifrina, Anna Fang
+SoftDev pd7
+ K28 -- Getting more comfortable with the dev console and the DOM
+ 2023-04-16
+--------------------------------------------------
+
+Notes 
+- onload executes the script, used to check the browser, and used in tandem with cookies 
+- interactive with html! 

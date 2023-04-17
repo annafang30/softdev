@@ -63,7 +63,7 @@ var o = { 'name' : 'Thluffy',
           }
         };
 
-
+// adds (appending) new ellement to the end of a list
 var addItem = function(text) {
   var list = document.getElementById("thelist");
   var newitem = document.createElement("li");
@@ -77,7 +77,7 @@ var removeItem = function(n) {
   listitems[n].remove();
 };
 
-
+// makes the elements added red 
 var red = function() {
   var items = document.getElementsByTagName("li");
   for(var i = 0; i < items.length; i++) {
@@ -85,7 +85,7 @@ var red = function() {
   }
 };
 
-
+// alternating red and blue 
 var stripe = function() {
   var items = document.getElementsByTagName("li");
   for(var i = 0; i < items.length; i++) {
