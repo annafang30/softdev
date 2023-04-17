@@ -6,4 +6,8 @@ SoftDev pd7
 
 Notes 
 - onload executes the script, used to check the browser, and used in tandem with cookies 
-- interactive with html! 
+- JS DOM allows for manipulation of HTML documents
+- DOM provides functions to edit parts of the functions/documents 
+
+Questions 
+- N/A
