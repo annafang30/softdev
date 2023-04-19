@@ -1,42 +1,8 @@
-/*
-   your PPTASK:
-
-   Test drive each bit of code in this file,
-    and insert comments galore, indicating anything
-     you discover,
-    	have questions about,
-    		or otherwise deem notable.
-
-    		Write with your future self or teammates in mind.
-
-    		If you find yourself falling out of flow mode, consult
-    		other teams
-    		MDN
-
-   A few comments have been pre-filled for you...
-
-   (delete this block comment once you are done)
-*/
-
 // Team Double A V2 :: Sasha Shifrina, Anna Fang
 // SoftDev pd7
 // K28 -- Getting more comfortable with the dev console and the DOM
 // 2023-04-16
 // --------------------------------------------------
-
-// DISCO
-// -----------------------------------------------------------------
-// *  console.log() sends a print call in the web console
-// *  pressing enter in the web console displays all log function at the bottom of the screen
-// *  console.log(myFxn) returns the body of the const
-// *  Ctrt+Shift/Option+J will allow you to run JS in the browser!
-// =================================================================
-//
-// QCC
-// -----------------------------------------------------------------
-// *  How can we employ the const myFxn? Can other functions envoke it?
-// =================================================================
-
 
 //send diagnostic output to console
 //(Ctrl-Shift-K in Firefox to reveal console)
