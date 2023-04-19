@@ -49,13 +49,13 @@ var j = 20;
 //assign an anonymous fxn to a var
 var f = function(x) {
   var j=30;
-  return j+x;
+  return j+x; // returns 30 + the input to function() 
 };
 
 
 //instantiate an object
 var o = { 'name' : 'Thluffy',
-          age : 1024,
+          age : 1024, // no quotes 
           items : [10, 20, 30, 40],
           morestuff : {a : 1, b : 'ayo'},
           func : function(x) {
@@ -63,7 +63,7 @@ var o = { 'name' : 'Thluffy',
           }
         };
 
-// adds (appending) new ellement to the end of a list
+// adds (appending) new element to the end of a list
 var addItem = function(text) {
   var list = document.getElementById("thelist");
   var newitem = document.createElement("li");
@@ -71,13 +71,13 @@ var addItem = function(text) {
   list.appendChild(newitem);
 };
 
-
+// removes element at index n
 var removeItem = function(n) {
   var listitems = document.getElementsByTagName('li');
   listitems[n].remove();
 };
 
-// makes the elements added red 
+// makes the end caps red 
 var red = function() {
   var items = document.getElementsByTagName("li");
   for(var i = 0; i < items.length; i++) {
@@ -85,7 +85,7 @@ var red = function() {
   }
 };
 
-// alternating red and blue 
+// adding alternating "red" and "blue" endcaps 
 var stripe = function() {
   var items = document.getElementsByTagName("li");
   for(var i = 0; i < items.length; i++) {
@@ -101,15 +101,16 @@ var stripe = function() {
 // FIB
 function fib(n){
     if(n<=1){
-        return n;
+        return(n);
     }
     else{
         return fib(n-1) + fib(n-2);
     }
 }
 
-console.log(fib(9));
-console.log(fib(12));
+// console.log(fib(9));
+// console.log(fib(12));
+
 // FAC
 function fact(n){
     if(n <= 1){
@@ -118,10 +119,12 @@ function fact(n){
     else{
         return n * fact(n-1);
     }
+
 }
 
-console.log(fact(9));
-console.log(fact(12));
+// console.log(fact(9));
+// console.log(fact(12));
+
 // GCD
 function gcd(x, y){
   while(y) {
@@ -129,16 +132,27 @@ function gcd(x, y){
     y = x % y;
     x = temp;
   }
-  return x;
+  return x; 
 }
 
-console.log(gcd(3, 9));
-console.log(gcd(14,6));
+// console.log(gcd(3, 9));
+// console.log(gcd(14,6));
+
 // In addition to the style shown above,
 //  you are encouraged to test drive the "arrow function syntax" as shown below.
 //  Note anything notable.
-const myFxn = (param1, param2) => {
+const myFxn = (param1, param2) => { // "shorter functions"; cannot be used as methods or constructors 
   // body
   return retVal;
 };
-console.log(myFxn);
+
+// console.log(myFxn);
+
+// rendering the function outputs using this information: https://www.w3schools.com/jsref/prop_html_innerhtml.asp
+ var a = "" + gcd(3,6); 
+ var c = "" + fib(9); 
+ var b = "" + fact(9); 
+document.getElementById("GCD").innerHTML = "gcd(3,6) = " + a;
+document.getElementById("FIB").innerHTML = "fib(9) = " + c;
+document.getElementById("FACT").innerHTML = "fact(9) = " + b; 
+

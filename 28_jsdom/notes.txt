@@ -3,11 +3,15 @@ SoftDev pd7
  K28 -- Getting more comfortable with the dev console and the DOM
  2023-04-16
 --------------------------------------------------
-
 Notes 
-- onload executes the script, used to check the browser, and used in tandem with cookies 
+- console.log() sends a print call in the web console
+- pressing enter in the web console displays all log function at the bottom of the screen
+- console.log(myFxn) returns the body of the const
+- Ctrt+Shift/Option+J will allow you to run JS in the browser!
 - JS DOM allows for manipulation of HTML documents
 - DOM provides functions to edit parts of the functions/documents 
 
 Questions 
-- N/A
+-  How can we employ the const myFxn? Can other functions envoke it?
+- Is there a better way to call the javascript functions in order to implement them into html other than declaring each individual section? 
+- what are the downsides to using things like document.write(), etc? 
