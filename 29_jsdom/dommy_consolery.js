@@ -127,11 +127,11 @@ const myFxn = (param1, param2) => { // "shorter functions"; cannot be used as me
  }
 
  function display_FACT12(){
-    document.getElementById("FIB12").innerHTML = "fact(12) = " + e; 
+    document.getElementById("FACT12").innerHTML = "fact(12) = " + e; 
  }
 
  function display_GCD(){
-    document.getElementById("FIB12").innerHTML = "fib(12) = " + f; 
+    document.getElementById("GCD(12,4)").innerHTML = "fib(12) = " + f; 
  }
  document.getElementById("GCD").innerHTML = "gcd(3,6) = " + a;
 document.getElementById("FIB").innerHTML = "fib(9) = " + c;
