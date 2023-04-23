@@ -38,16 +38,19 @@
       <li class="">item 7</li>
     </ol>
 
-    <!-- Augment given code so that upon loading index.html, the result of at least one call to each of your calculator functions appears on the page. --> 
+    <!-- Augment given code so that upon loading index.html, the result of at least one call to each of your calculator functions appears on the page. -->
     <p id="GCD"></p>
     <p id = "FIB"></p>
     <p id = "FACT"></p>
-    <button onclick = "display_FIB12()""> Display fib12 </button> 
-    <p id = "FIB12"></p>
-    <button onclick = "display_FACT12()""> Display fact12 </button> 
-    <p id = "FACT12"></p>
-    <button onclick = "display_GCD()""> Display gcd(12,4) </button> 
-    <p id = "GCD(12,4)"></p>
+    <input id="my-input" placeholder="Enter arg for fib()" />
+    <button id="my-button"> Display fib(n) </button>
+    <p id = "FIB"></p>
+    <input id="my-input2" placeholder="Enter arg for fact()" />
+    <button id="my-button2"> Display fact(n) </button>
+    <p id = "FACT"></p>
+    <input id="my-input3" placeholder="Enter args separated by a space" />
+    <button id="my-button3"> Display gcd(n,v) </button>
+    <p id = "GCD"></p>
     <script src="dommy_consolery.js"></script>
   </body>
 </html>

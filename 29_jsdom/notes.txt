@@ -8,5 +8,6 @@ Notes
 - Adding the display call directly into the functions expediates the function calling 
 
 Questions 
-- Is there a more efficent way to display (other than refercing the inner html)
+- Is there a more efficent way to display (other than refercing the inner html via dividers and <p> tags)? 
+- 
 
