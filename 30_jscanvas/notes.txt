@@ -5,8 +5,10 @@ SoftDev pd7
 --------------------------------------------------
 
 Notes
-- Adding the display call directly into the functions expediates the function calling 
+-  implementation of e indicates a "click" event 
+-  additional moveTo calls are not necessary 
+- [(event, listener)]
+- 2d = two dimensional rendering
 
 Questions 
-- Is there a more efficent way to display (other than refercing the inner html via dividers and <p> tags)? 
-- 
+- N/A
