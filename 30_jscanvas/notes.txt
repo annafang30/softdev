@@ -1,0 +1,12 @@
+Team Double A V2 :: Sasha Shifrina, Anna Fang
+SoftDev pd7
+ K30 -- canvas based JS drawing
+ 2023-04-24m
+--------------------------------------------------
+
+Notes
+- Adding the display call directly into the functions expediates the function calling 
+
+Questions 
+- Is there a more efficent way to display (other than refercing the inner html via dividers and <p> tags)? 
+- 
