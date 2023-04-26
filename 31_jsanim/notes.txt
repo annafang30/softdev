@@ -1,0 +1,14 @@
+Team Double A V2 :: Sasha Shifrina, Anna Fang
+SoftDev pd7
+ K31 -- canvas based JS animation
+ 2023-04-25t
+--------------------------------------------------
+
+Notes
+- making sure to check file names and source calls helps (a lot)
+- requestID acts as a "grouper" 
+- the window.requestAnimationFrame() call can go either before or after the code block
+- speeding up due to the recursion loop (creates multi loops without closing the first loop)
+
+Questions 
+- N/A
