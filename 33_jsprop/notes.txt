@@ -6,6 +6,8 @@ SoftDev pd7
 
 Notes
 - events in 1 create a table and each click on the cells creates a popup 
-- calling tr in 2 displays all the elements in the row after the individual cell is called to alert  
-- after running the addEventListener with the boolean in 3, the behavior of 2 and 3 changes 
-    - two begins to display the inner html of the full table after displaying the row 
+- calling tr in 2 displays the cell element, then the row inner html, and then the full inner html of the table
+- 
+
+Questions
+- why does table need to be indexed when there is only one table ID in the html? (4) 

@@ -24,11 +24,11 @@ for (x=0; x < trs.length; x++) {
 //Predict, then test...
 //Q: What effect does the boolean arg have?
 // prediction: displays when true and does not display when false 
-// actual: reverses order of display. When the boolean is entirely removed, the "boolean" is automatically set to false 
+// actual: reverses order of display. (sets order of calling) When the boolean is entirely removed, the "boolean" is automatically set to false 
 //   (Leave exactly 1 version uncommented to test...)
 
 table.addEventListener('click', clicky,true);
 //table.addEventListener('click', clicky, false);
 
 // Q: When user clicks on a cell, in what order will the pop-ups appear?
-// same answer as the above question ^^ 
+// same answer as the above question except if boolean == true, then the contents of the entire table are shown first 

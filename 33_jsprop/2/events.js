@@ -21,4 +21,4 @@ table.addEventListener('click', clicky);
 
 
 // Q: When user clicks on a cell, in what order will the pop-ups appear?
-// separate elements are displayed first before the row that the cell element belongs to pops up 
+// separate elements are displayed first before the row that the cell element belongs to pops up, and then the contents of the table 

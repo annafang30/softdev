@@ -10,15 +10,17 @@ var table = document.getElementsByTagName('table')[0];
 var clicky = function(e) {
   alert( this.innerHTML );
   //Q: What will happen when next line is uncommented?
+  // only the first alert call is called. (all the others are cancelled)
   //e.stopPropagation();
 };
 
 
 //Q: Does the order in which the event listeners are attached matter?
+// when booleans are used as an argument, no. 
 
 //Predict, then test...
 //Q: What effect does the boolean arg have in each?
-//   (Leave exactly 1 version uncommented to test...)
+// priority on alert calling is placed from the bottom up and cycles back to the end if not already called. 
 
 for (var x=0; x < tds.length; x++) {
   tds[x].addEventListener('click', clicky, true);
