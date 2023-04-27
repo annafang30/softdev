@@ -3,3 +3,9 @@ SoftDev pd7
  K33 -- JS Bubble & Squeak
  2023-04-27t
 --------------------------------------------------
+
+Notes
+- events in 1 create a table and each click on the cells creates a popup 
+- calling tr in 2 displays all the elements in the row after the individual cell is called to alert  
+- after running the addEventListener with the boolean in 3, the behavior of 2 and 3 changes 
+    - two begins to display the inner html of the full table after displaying the row 
