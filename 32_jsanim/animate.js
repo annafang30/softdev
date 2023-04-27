@@ -1,7 +1,7 @@
 // Team Double A V2 :: Sasha Shifrina, Anna Fang
 // SoftDev pd7
 // K32 -- canvas based JS dvdLogo animation
-// 2023-04-26
+// 2023-04-26w
 // --------------------------------------------------
 
 var c = document.getElementById('playground');
