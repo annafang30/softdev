@@ -7,7 +7,15 @@ SoftDev pd7
 Notes
 - events in 1 create a table and each click on the cells creates a popup 
 - calling tr in 2 displays the cell element, then the row inner html, and then the full inner html of the table
-- 
+- priority on alert calling with booleans is placed from the bottom up (with boolean == true) and cycles back to the end if it not already called. 
 
 Questions
 - why does table need to be indexed when there is only one table ID in the html? (4) 
+
+Bubble 
+Bottom most commands are run before moving to the commands in the "layer" above of it. This sequence repeats until going from bottom to top (and back to the bottom) until all the commands are run. 
+"Bubble" can be stopped using "e.stopPropagation()" 
+
+Capture  
+Seems to be the opposite of "Bubble" where commands on top and run before moving onto commands in the "layer" below it. Can be applied to a function call when there is a boolean added to .addEventListener() (third constraint). 
+"Capture" can also be stopped using "e.stopPropagation()"
